@@ -1,8 +1,19 @@
-h1 {
+body {
+    background-color: black;
+}
+
+h2 {
     color: gray;
+    text-align: center;
+}
+p {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 button {
-    width: 10px 10px;
+    color: black;
+    background-color: brown;
 }
 #stormtrooper {
     width: 30%;
