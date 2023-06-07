@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(97, 55, 55);
 }
 
 .header {
@@ -81,8 +81,34 @@ button {
     width: 30%;
 }
 
-#Imagine {
-    height: 600px; 
+.promo {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin: 100px auto;
+    align-items: center;
+}
+
+ /*.video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.videoDescription {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    height: 300px;
+}
+
+.videoDescription video {
+    width: 300px;
+}
+
+.videoDescription img {
+    width: 120px;
+    margin-top: 10px;
 }
 
 .publish h3 {
@@ -94,7 +120,7 @@ button {
 
 .publish p {
     font-size: 16px;
-    color: #343434;
+    color: #5c5c38;
     line-height: 1.5;
     margin-bottom: 20px;
 }
