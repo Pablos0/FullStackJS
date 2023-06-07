@@ -84,3 +84,24 @@ button {
 #Imagine {
     height: 600px; 
 }
+
+.publish h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
+}
+
+.publish p {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.publish button {
+    background-color: antiquewhite;
+    color: #025157;
+    display: center;
+    margin-right: 20px;
+}
