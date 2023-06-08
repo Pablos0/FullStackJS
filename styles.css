@@ -2,12 +2,19 @@ body {
     background-color: rgb(97, 55, 55);
 }
 
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
 .header {
     padding-left: 15px;
     padding-right: 15px;
     font-size: 0;
     height: 100%;
-    background-color: rgb(25, 177, 126);
+    background-color: rgb(97, 55, 55);
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -20,20 +27,21 @@ body {
 }
 
 #ostrich {
-    width: 15%;
+    width: 10%;
     margin-top: 10px;
     margin-bottom: 10px;
+    border-radius: 20px;
 }
 
 .navBar {
-    width: 70%;
+    width: 80%;
     text-align: center;
     color: white;
     font-weight: 500;
 }
 
 .actions {
-    width: 15%;
+    width: 10%;
     text-align: right;
     font-size: 14px;
     font-weight: 600;
@@ -60,7 +68,7 @@ li {
 }
 
 main {
-    margin-top: 100px;
+    margin-top: 285px;
     text-align: center;
 }
 
@@ -77,8 +85,10 @@ button {
     color: black;
     background-color: brown;
 }
+
 #stormtrooper {
     width: 30%;
+    border-radius: 20px;
 }
 
 .promo {
@@ -104,6 +114,7 @@ button {
 
 .videoDescription video {
     width: 300px;
+    border-radius: 10px;
 }
 
 .videoDescription img {
