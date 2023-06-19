@@ -40,6 +40,14 @@ body {
     font-weight: 500;
 }
 
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
 .actions {
     width: 10%;
     text-align: right;
