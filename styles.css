@@ -18,7 +18,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.header  > * {  /* El comando > * permite generar cambios a cada hijo de esa etiqueta. */ 
+.header  > * {  /* El comando > * permite generar cambios a cada hijo de esa etiqueta. */
     display: inline-block;
     font-size: 20px;
     vertical-align: middle;
@@ -31,7 +31,7 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 20px;
-}
+} 
 
 .navBar {
     width: 80%;
@@ -225,4 +225,75 @@ button {
     margin-top: 0;
     height: 100%;
     border-radius: 10px;
+  }
+
+            /* A partir de este punto comienza el CSS responsive */
+
+            /** dispositivos móviles en vista viewport (vertical) 
+            @media (max-width: 575px) {
+                ...;
+            }
+            
+            /** dispositivos pequeños en vista landscape (horizontal) 
+            @media (min-width: 576px and max-width: 767px) {
+                ...;
+            }
+            
+            /** dispositivos medianos (tablets) 
+            @media (min-width: 768px and max-width: 991px) {
+                ...;
+            }
+            
+            /** dispositivos grandes (desktops) 
+            @media (min-width: 992px and max-width: 1199px) {
+                ...;
+            }
+            
+            /** dispositivos extra grandes (monitores grandes, tvs) 
+
+            @media (min-width: 1200px) {
+                ...;
+            } */
+
+  @media (max-width: 800px) {
+    body {
+        background-color: #5c5c38;
+    }
+
+    .navBar, .actions {
+        display: none;
+    }
+
+    main {
+        margin-top: 130px;
+    }
+
+    .promo {
+        flex-direction: column;
+        max-width: 90%;
+    }
+
+    .videoDescription > video {
+        width: 100%;
+    }
+
+    .publish {
+        margin-top: 10px;
+    }
+
+    .publish > h3 {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .portfolio {
+        grid-template: repeat(4, 1fr) / 1fr;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .portfolio-image {
+        display: none;
+    }
+
   }
