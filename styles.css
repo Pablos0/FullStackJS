@@ -150,6 +150,10 @@ button {
     margin-right: 20px;
 }
 
+.publish button:hover { /* pseudo clase que permite generar animaciones */
+    background-color: #67b54b;
+}
+
 /*.portfolio {
     display: grid;
     /* grid-template-columns: repeat(2, 1fr); 
@@ -255,13 +259,14 @@ button {
                 ...;
             } */
 
-  @media (max-width: 800px) {
+  @media  (max-width: 575px) {
+   
     body {
         background-color: #5c5c38;
     }
 
-    .navBar, .actions {
-        display: none;
+    .actions {
+        text-align: center;
     }
 
     main {
@@ -291,9 +296,4 @@ button {
         padding-left: 0;
         padding-right: 0;
     }
-
-    .portfolio-image {
-        display: none;
-    }
-
   }
